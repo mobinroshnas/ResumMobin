@@ -1,0 +1,13 @@
+
+body {
+  font-family: 'Font Awesome 5 Free';
+background: #f8f9fa!important;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.category a li:hover{
+  background: #fdcb6e;
+}
