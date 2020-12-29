@@ -21,8 +21,22 @@
           </div>
           <div class="col-lg-6">
            <center>
-            <h2 class="mt-2">I'M <span style="color:#44C2BC"> MobinRoshnas</span></h2>
+            <h2 class="mt-2">I'M <span style="color:#44C2BC" id="demo"> MobinRoshnas</span></h2>
             <h5> FullStack Developer</h5>
+               <script>
+                   var i = 0;
+var txt = 'Lorem ipsum typing effect!'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+                   typeWriter()
+               </script>
             <hr>
             <h2 style="color:#44C2BC">About Me</h2>
               <P>
@@ -125,6 +139,22 @@
                   Exam
                    <p>
                    FrontEnd | BackEnd
+                   </p>
+               </a>
+              </div>
+                 <div class="col-lg-6">
+                  <a href="http://feedback.gilasweb.ir">
+                  feedback
+                   <p>
+                   FrontEnd | BackEnd
+                   </p>
+               </a>
+              </div>
+                 <div class="col-lg-6">
+                  <a href="http://ketabta.ir">
+                  ketabta
+                   <p>
+                  BackEnd | Data
                    </p>
                </a>
               </div>
