@@ -1,6 +1,14 @@
-
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/iranSans/eot/IRANSansWeb(FaNum)_Bold.eot');
+  src: url('../fonts/iranSans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+  url('../fonts/iranSans/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+  url('../fonts/iranSans/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('../fonts/iranSans/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
 body {
-  font-family: 'Font Awesome 5 Free';
 background: #4DC1C1!important;
 }
 a{
@@ -10,30 +18,4 @@ a{
 
 .category a li:hover{
   background: #fdcb6e;
-}
-.typing {
-  position: relative;
-  line-height: 24px;
-  display: inline-block;
-  color: #FFF;
-  min-width: 1px;
-  min-height: 24px;
-}
-.typing:after {
-  content: "";
-  position: absolute;
-  top: 5%;
-  right: -2px;
-  width: 1px;
-  height: 90%;
-  border-right: 2px solid #FFF;
-  animation: blink .5s infinite ease;
-}
-@keyframes blink{
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1%;
-  }
 }
